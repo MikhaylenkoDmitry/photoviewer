@@ -1,2 +1,3 @@
 # photoviewer
-Simple javascript image gallery viewer
+Simple image gallery viewer. 
+Open photoviewer/photoviewer.html in a browser to view usage example.
