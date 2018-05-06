@@ -1,0 +1,92 @@
+/* PHOTOVIEWER */
+
+#photoviewer {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1040;
+	display: none;
+}
+
+#photoviewer .photoviewer-close {
+	position: fixed;
+	top: 50px;
+	right: 150px;
+	z-index: 15;
+}
+
+#photoviewer .photoviewer-close {
+	font-size: 55px;
+	font-weight: 400;
+	color: #fff;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+#photoviewer .photoviewer-close:hover,
+#photoviewer .photoviewer-close:focus {
+	opacity: 1;
+}
+
+#photoviewer .photoviewer-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.95);
+	z-index: 10;
+}
+
+#photoviewer .photoviewer-content {
+	width: 900px;
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	margin: -250px 0 0 -450px;
+	background: #000;
+	z-index: 1000;
+}
+
+#photoviewer .photoviewer-items {
+	position: relative;
+}
+
+#photoviewer #photoviewer-item {
+	text-align: center;
+}
+
+#photoviewer .photoviewer-item img {
+	width: 900px;
+}
+
+#photoviewer .photoviewer-control {
+	position: absolute;
+	top: 45%;
+	z-index: 15;
+	cursor: pointer;
+}
+
+#photoviewer .photoviewer-control .icon {
+	font-size: 60px;
+	color: #fff;
+	opacity: 0.8;
+	line-height: 0.6;
+}
+
+#photoviewer .photoviewer-control .icon:hover,
+#photoviewer .photoviewer-control .icon:focus {
+	opacity: 1;
+}
+
+#photoviewer .photoviewer-control.left {
+	left: 130px;
+}
+
+#photoviewer .photoviewer-control.right {
+	right: 130px;
+}
+
+/* END PHOTOVIEWER */
